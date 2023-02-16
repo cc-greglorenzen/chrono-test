@@ -1,8 +1,5 @@
-import { Inter } from "@next/font/google";
 import Head from "next/head";
 import { Chrono } from "react-chrono";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
 	return (
@@ -36,10 +33,30 @@ export default function Home() {
 										maximus justo, nec accumsan tortor. Curabitur dolor leo,
 										consectetur ut venenatis rutrum, luctus sed leo.
 									</p>
+									<p>
+										Sed et sem at sem facilisis ultrices. Nullam pulvinar, risus
+										quis condimentum consectetur, odio enim sagittis purus, nec
+										interdum sem magna sit amet lorem. Mauris cursus tellus
+										arcu, quis iaculis libero feugiat et. Mauris pretium nibh id
+										risus sodales pharetra. Proin laoreet elementum odio, non
+										maximus ligula vulputate ac. Mauris ultrices orci neque.
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+										commodo ex at metus interdum, sit amet commodo est sagittis.
+										Cras sem lacus, egestas id purus in, sodales tristique
+										magna. Quisque consectetur elit a pretium dignissim.
+										Phasellus eu risus faucibus, luctus augue eget, sodales
+										tellus. Donec iaculis quam eget pellentesque efficitur.
+										Morbi mattis et nunc vel maximus. Aliquam pulvinar sem
+										magna, id consectetur ex suscipit id. Proin tellus lacus,
+										placerat vel magna sit amet, lacinia lobortis nulla.
+										Suspendisse est lacus, facilisis ut volutpat in, gravida ac
+										justo. Curabitur finibus in neque ac imperdiet.
+									</p>
 								</div>
 							),
 						},
 					]}
+					useReadMore
 				/>
 			</div>
 		</>
